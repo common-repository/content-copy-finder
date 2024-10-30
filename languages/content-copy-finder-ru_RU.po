@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Copy Finder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 19:21+0000\n"
+"PO-Revision-Date: 2019-05-21 19:21+0000\n"
+"Last-Translator: jokerov@gmail.com\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2"
+
+#. %s: PHP version
+#: content-copy-finder.php:28
+#, php-format
+msgid ""
+"Content Copy Finder requires PHP version %s+, plugin is currently NOT "
+"RUNNING."
+msgstr ""
+"Content Copy Finder требует версию PHP не ниже %s. Поскольку вы используете "
+"более раннюю версию, плагин  НЕ работает."
+
+#. %s: WordPress version
+#: content-copy-finder.php:37
+#, php-format
+msgid ""
+"Content Copy Finder requires WordPress version %s+. Because you are using an "
+"earlier version, the plugin is currently NOT RUNNING."
+msgstr ""
+"Content Copy Finder требует WordPress версию не ниже %s. Поскольку вы "
+"используете более раннюю версию, плагин  НЕ работает."
+
+#: includes/class-plugin.php:29 includes/class-plugin.php:38
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: includes/admin/classes/class-bulk-check.php:32
+#: includes/admin/classes/class-bulk-check.php:33
+#: includes/admin/views/settings.php:8 includes/admin/views/bulk-check.php:2
+#: includes/admin/views/bulk-check.php:7
+msgid "Bulk check"
+msgstr "Массовая проверка уникальности"
+
+#. Name of the plugin
+#: includes/admin/classes/class-single-check.php:64
+#: includes/admin/classes/class-single-check.php:121
+#: includes/admin/classes/class-settings.php:84
+#: includes/admin/classes/class-settings.php:85
+#: includes/admin/views/settings.php:2
+msgid "Content Copy Finder"
+msgstr "Content Copy Finder"
+
+#: includes/admin/classes/class-single-check.php:189
+msgid "Post not found"
+msgstr "Запись не найдена"
+
+#: includes/admin/classes/class-single-check.php:204
+msgid "Uniqueness Check Request Error"
+msgstr "Ошибка запроса на проверку уникальности"
+
+#: includes/admin/classes/class-settings.php:70
+#: includes/admin/classes/class-settings.php:153
+#: includes/admin/views/settings.php:7 includes/admin/views/bulk-check.php:6
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin/classes/class-settings.php:160
+msgid "API Key"
+msgstr "Ваш API ключ"
+
+#: includes/admin/classes/class-settings.php:168
+msgid "may take on page"
+msgstr "можно получить на странице"
+
+#: includes/admin/classes/class-settings.php:175
+msgid "Auto ckeck"
+msgstr "Автоматическая проверка"
+
+#: includes/admin/classes/class-settings.php:183
+msgid "Check posts when adding and editing"
+msgstr "Проверять записи после сохранения и изменения"
+
+#: includes/admin/classes/class-settings.php:184
+msgid "Do not automatically check"
+msgstr "Не проверять автоматически"
+
+#: includes/admin/classes/class-settings.php:205
+msgid "Post types"
+msgstr "Типы записей"
+
+#: includes/admin/ajax/actions.php:23
+msgid "API Error:"
+msgstr "Ошибка API:"
+
+#: includes/admin/ajax/actions.php:31 includes/admin/views/account.php:3
+msgid "rub."
+msgstr "руб."
+
+#: includes/admin/views/column.php:1 includes/admin/views/column.php:6
+#: includes/admin/views/metabox.php:12 includes/admin/views/metabox.php:15
+msgid "Uniqueness check in progress"
+msgstr "Идёт проверка"
+
+#: includes/admin/views/column.php:4 includes/admin/views/metabox.php:23
+msgid "Uniqueness"
+msgstr "Уникальность"
+
+#: includes/admin/views/column.php:4
+msgid "text checked"
+msgstr "проверен"
+
+#: includes/admin/views/column.php:8 includes/admin/views/metabox.php:48
+msgid "Check error"
+msgstr "Ошибка при проверке"
+
+#: includes/admin/views/column.php:11
+msgid "Not yet verified"
+msgstr "Ещё не проверен"
+
+#: includes/admin/views/column.php:14
+msgid "Check"
+msgstr "Проверить"
+
+#: includes/admin/views/settings.php:3 includes/admin/views/bulk-check.php:3
+msgid ""
+"The plugin allows you to check the text of your records for uniqueness and "
+"find copies on other sites."
+msgstr ""
+"Плагин позволяет проверять текст ваших записей на уникальность и находить "
+"копии на других сайтах."
+
+#: includes/admin/views/settings.php:4
+msgid "For check use API"
+msgstr "Для проверки используется API сервиса"
+
+#: includes/admin/views/settings.php:12
+msgid "Account"
+msgstr "Ваш аккаунт"
+
+#: includes/admin/views/settings.php:18
+msgid "Scheme of work"
+msgstr "Схема работы"
+
+#: includes/admin/views/metabox.php:16
+msgid "Get results without page reload"
+msgstr "Получить результат без перезагрузки страницы"
+
+#: includes/admin/views/metabox.php:20
+msgid "Check text"
+msgstr "Проверить текст"
+
+#: includes/admin/views/metabox.php:27
+msgid "Page URL"
+msgstr "Адрес страницы"
+
+#: includes/admin/views/metabox.php:28
+msgid "Matches"
+msgstr "Совпадений"
+
+#: includes/admin/views/metabox.php:38
+msgid "Show matches"
+msgstr "Показать совпадения"
+
+#: includes/admin/views/metabox.php:38
+msgid "Hide matches"
+msgstr "Скрыть совпадения"
+
+#: includes/admin/views/metabox.php:40
+msgid ""
+"Before checking, the server cleared the text from markup and formatting. "
+"Therefore, the result looks monotonous. This is necessary for greater "
+"accuracy in finding plagiarism. Non-unique text fragments are highlighted."
+msgstr ""
+"Перед проверкой, сервер очистил текст от разметки и форматирования. Поэтому "
+"результат выглядит монотонно. Это необходимо для большей точности нахождения "
+"плагиата. Цветом выделены не уникальные фрагменты текста."
+
+#: includes/admin/views/account.php:2
+msgid "Balance"
+msgstr "Денег на счету"
+
+#: includes/admin/views/account.php:3
+msgid "Check price"
+msgstr "Стоимость одной проверки"
+
+#: includes/admin/views/account.php:3
+msgid "At your disposal"
+msgstr "В Вашем распоряжении"
+
+#: includes/admin/views/account.php:3
+msgid "checks"
+msgstr "проверок"
+
+#: includes/admin/views/account.php:9
+msgid "Check balance"
+msgstr "Проверить баланс"
+
+#: includes/admin/views/account.php:10
+msgid "Add funds"
+msgstr "Пополнить баланс"
+
+#: includes/admin/views/bulk-check.php:14
+msgid "Select post type"
+msgstr "Выберите тип записи"
+
+#: includes/admin/views/bulk-check.php:37
+msgid "Check type"
+msgstr "Тип проверки"
+
+#: includes/admin/views/bulk-check.php:41
+#: includes/admin/views/bulk-check.php:46
+msgid "All entries of the selected type will be checked for uniqueness."
+msgstr "На уникальность будут проверены все записи выбранного типа."
+
+#: includes/admin/views/bulk-check.php:41
+msgid "All records"
+msgstr "Все записи"
+
+#: includes/admin/views/bulk-check.php:42
+msgid ""
+"Only those records that have not been previously checked will be checked for "
+"uniqueness."
+msgstr ""
+"На уникальность будут проверены только те записи, которые ранее не "
+"проверялись."
+
+#: includes/admin/views/bulk-check.php:42
+msgid "Unchecked"
+msgstr "Не проверенные"
+
+#: includes/admin/views/bulk-check.php:43
+msgid "Records checked for uniqueness will be rechecked again."
+msgstr ""
+"Записи, которые ранее уже были проверены на уникальность, будут "
+"перепроверены снова."
+
+#: includes/admin/views/bulk-check.php:43
+msgid "Checked"
+msgstr "Проверенные"
+
+#: includes/admin/views/bulk-check.php:44
+msgid ""
+"Only those records that were previously checked with an error will be "
+"checked for uniqueness."
+msgstr ""
+"На уникальность будут проверены только те записи, которые ранее были "
+"проверены с ошибкой."
+
+#: includes/admin/views/bulk-check.php:44
+msgid "With error"
+msgstr "С ошибкой"
+
+#: includes/admin/views/bulk-check.php:51
+msgid "Post status"
+msgstr "Статусы записи"
+
+#: includes/admin/views/bulk-check.php:72
+msgid "Mass check in progress"
+msgstr "Идёт массовая проверка"
+
+#: includes/admin/views/bulk-check.php:74
+msgid "Processed"
+msgstr "Обработано"
+
+#: includes/admin/views/bulk-check.php:74
+msgid "of"
+msgstr "из"
+
+#: includes/admin/views/bulk-check.php:79
+msgid "Post title"
+msgstr "Заголовок записи"
+
+#: includes/admin/views/bulk-check.php:80
+msgid "Checking results"
+msgstr "Результат проверки"
+
+#: includes/admin/views/bulk-check.php:90
+msgid "Start checking"
+msgstr "Начать проверку"
+
+#: includes/admin/views/bulk-check.php:90
+msgid "Processing completed"
+msgstr "Проверка завершена"
+
+#: includes/admin/views/bulk-check.php:90
+msgid "Stop"
+msgstr "Остановить"
+
+#: includes/admin/views/bulk-check.php:90
+msgid "Continue"
+msgstr "Возобновить"
+
+#: includes/admin/views/steps.php:1
+msgid "Register on the site"
+msgstr "Зарегистрируйтесь на сайте"
+
+#: includes/admin/views/steps.php:2
+msgid "Get API key on page"
+msgstr "Получите API ключ на странице"
+
+#: includes/admin/views/steps.php:3
+msgid "Enter your unique API key in the plugin settings"
+msgstr "Введите ваш уникальный API-ключ в настройках плагина"
+
+#: includes/admin/views/steps.php:4
+msgid ""
+"When adding and editing posts, their text will be automatically checked for "
+"uniqueness."
+msgstr ""
+"При добавлении и правке постов их текст будет автоматически проверяться на "
+"уникальность!"
+
+#. Description of the plugin
+msgid "Check text for uniqueness and plagiarism search"
+msgstr "Проверка текста на уникальность и поиск плагиата"
+
+#. Author of the plugin
+msgid "Eugene Jokerov"
+msgstr "Eugene Jokerov"
